@@ -3,6 +3,28 @@
     <head>
         <title>Gallery</title>
         <link rel="stylesheet" type="text/css" href="IsysStyleSheet.css"/>
+        <style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
     </head>
     <body>
         <h1>Gallery</h1>
@@ -13,6 +35,38 @@
             <li><a href="work.html">My Work</a></li>
         </ul>
         <hr/>
-        <p>Unfortunately there's nothing here yet! But that will change soon!</p>
-    </body>
+        <div class="gallery">
+            <a target="_blank" href="clouds.jpg">
+                <img src="clouds.jpg" alt="Clouds" width="750" height="1334"/>
+            </a>
+            <div class="desc">A view from my bedroom window here at Behrend.</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="sunset.jpg">
+                <img src="sunset.jpg" alt="Sunset" width="750" height="1334"/>
+            </a>
+            <div class="desc">A view of the sunset from my hometown.</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="bee-selfie.jpg">
+                <img src="bee-selfie.jpg" alt="Self Portrait" width="750" height="1334"/>
+            </a>
+            <div class="desc">A self portrait of my favorite earrings and dress.</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="lighting-selfie.jpg">
+                <img src="lighting-selfie.jpg" alt="Lighting" width="750" height="1334"/>
+            </a>
+            <div class="desc">A self portrait with a focus on lighting composition.</div>
+            </div>
+            
+         <div class="gallery">
+                <a target="_blank" href="marbles-paper.jpg">
+                    <img src="marbles-paper.jpg" alt="Marbles" width="3024" height="4032"/>
+                </a>
+                <div class="desc">My puppy destroying a roll of toilet paper.</div>
+        </div>    </body>
 </html>

@@ -1,14 +1,34 @@
 body {
-  background-image: url("clouds.jpg");
+  background-color: CornflowerBlue;
 }
 
 h1 {
-  color: white;
+  color: FloralWhite;
   text-align: left;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
-  color: white;
+  color: FloralWhite;
+}
+
+a:link {
+    color: Lavender;
+    
+}
+
+a:visited {
+    color: LavenderBlush;
+    
+}
+
+a:hover {
+    color: LemonChiffon;
+    
+}
+
+a:active {
+    color: LightCyan;
+    
 }
