@@ -14,21 +14,21 @@ p {
 }
 
 a:link {
-    color: Lavender;
+    color: BurlyWood;
     
 }
 
 a:visited {
-    color: LavenderBlush;
+    color: DarkGoldenRod;
     
 }
 
 a:hover {
-    color: LemonChiffon;
+    color: DarkSalmon;
     
 }
 
 a:active {
-    color: LightCyan;
+    color: Olive;
     
 }
