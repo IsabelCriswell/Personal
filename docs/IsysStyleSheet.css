@@ -1,0 +1,14 @@
+body {
+  background-image: url("clouds.jpg");
+}
+
+h1 {
+  color: white;
+  text-align: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+}
