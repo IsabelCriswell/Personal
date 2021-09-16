@@ -1,16 +1,16 @@
 body {
-  background-color: CornflowerBlue;
+  background-color: PapayaWhip;
 }
 
 h1 {
-  color: FloralWhite;
+  color: RosyBrown;
   text-align: left;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
-  color: FloralWhite;
+  color: RosyBrown;
 }
 
 a:link {
