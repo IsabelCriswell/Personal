@@ -32,3 +32,27 @@ a:active {
     color: Olive;
     
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: Peru;
+}
+
+.topnav a {
+  float: left;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: SaddleBrown;
+  color: SeaShell;
+}
+
+.topnav a.active {
+  background-color: Wheat;
+  color: DimGrey;
+}
