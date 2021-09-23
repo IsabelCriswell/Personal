@@ -1,65 +1,79 @@
 body {
-  background-color: PapayaWhip;
+    background-color: PapayaWhip;
+    font-family: "Courier New", monospace;
 }
 
 h1 {
-  color: RosyBrown;
-  text-align: left;
+    color: RosyBrown;
+    text-align: left;
+    font-family: "Courier New", monospace;
+
 }
 
+h2 {
+    font-family: "Courier New", monospace;
+
+}
+
+h3 {
+    font-family: "Courier New", monospace;
+
+}
+
+
 p {
-  font-family: verdana;
-  font-size: 20px;
-  color: RosyBrown;
+    font-family: verdana;
+    font-size: 20px;
+    color: RosyBrown;
 }
 
 a:link {
     color: Sienna;
-    
+
 }
 
 a:visited {
     color: Indian Red;
-    
+
 }
 
 a:hover {
     color: DarkOliveGreen;
-    
+
 }
 
 a:active {
     color: Olive;
-    
+
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: Peru;
+    overflow: hidden;
+    background-color: Peru;
 }
 
 .topnav a {
-  float: left;
-  color: White;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: SaddleBrown;
-  color: SeaShell;
+    background-color: SaddleBrown;
+    color: SeaShell;
 }
 
 .topnav a.active {
-  background-color: Wheat;
-  color: DimGrey;
+    background-color: Wheat;
+    color: DimGrey;
 }
 
 section {
-  display: flex;
+    display: flex;
 }
 article {
-  padding: 0 2em;
+    padding: 0 2em;
 }
