@@ -20,6 +20,8 @@ h2 {
 h3 {
     font-family: "Courier New", monospace;
     color: Peru;
+    text-indent: 2em;
+
 
 }
 
@@ -28,6 +30,8 @@ p {
     font-family: "Courier New", monospace;
     font-size: 20px;
     color: RosyBrown;
+    text-indent: 3em;
+
 }
 
 a:link {
@@ -76,7 +80,9 @@ a:active {
 
 section {
     display: flex;
+    flex-direction: column;
 }
+
 article {
     padding: 0 2em;
 }
@@ -85,4 +91,6 @@ ul {
     font-family: "Courier New", monospace;
     font-size: 20px;
     color: RosyBrown;
+      text-indent: 4em;
+
 }
