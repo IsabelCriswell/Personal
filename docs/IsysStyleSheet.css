@@ -56,3 +56,10 @@ a:active {
   background-color: Wheat;
   color: DimGrey;
 }
+
+section {
+  display: flex;
+}
+article {
+  padding: 0 2em;
+}
