@@ -80,3 +80,9 @@ section {
 article {
     padding: 0 2em;
 }
+
+ul {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    color: RosyBrown;
+}
