@@ -12,17 +12,20 @@ h1 {
 
 h2 {
     font-family: "Courier New", monospace;
+    color: Sienna;
+
 
 }
 
 h3 {
     font-family: "Courier New", monospace;
+    color: Peru;
 
 }
 
 
 p {
-    font-family: verdana;
+    font-family: "Courier New", monospace;
     font-size: 20px;
     color: RosyBrown;
 }
