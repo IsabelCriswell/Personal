@@ -92,5 +92,15 @@ ul {
     font-size: 20px;
     color: RosyBrown;
       text-indent: 4em;
+      
+<style type="text/css">
+.roman {
+ list-style-type: lower-roman;
+}
+.square {
+ list-style-type: square;
+ margin-left: -2em;
+}
+</style>
 
 }
